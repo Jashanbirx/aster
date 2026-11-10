@@ -3,6 +3,12 @@
   "version": "0.2.0",
   "private": true,
   "description": "AI operating system for Canadian hospitals and a patient AI doctor app.",
+  "author": "Jashanbir Singh (https://github.com/Jashanbirx)",
+  "homepage": "https://jashanbirx.github.io/aster/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jashanbirx/aster.git"
+  },
   "license": "UNLICENSED",
   "type": "module",
   "scripts": {
