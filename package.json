@@ -1,0 +1,25 @@
+{
+  "name": "aster",
+  "version": "0.2.0",
+  "private": true,
+  "description": "AI operating system for Canadian hospitals and a patient AI doctor app.",
+  "license": "UNLICENSED",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "build:pages": "node scripts/build.mjs --pages",
+    "start": "node scripts/build.mjs && node scripts/serve.mjs",
+    "serve": "node scripts/serve.mjs",
+    "test:e2e": "node scripts/build.mjs && node scripts/build-fake.mjs && node test/e2e.mjs",
+    "test:routes": "node scripts/build.mjs && node scripts/build-fake.mjs && node test/routes.mjs"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-icons": "^5.5.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0",
+    "playwright": "^1.50.0"
+  }
+}
